@@ -42,6 +42,7 @@ It’s built as a **Gradle Java application** with a layered architecture (`mode
 ├── build.gradle
 ├── settings.gradle
 ├── gradlew / gradlew.bat
+├── GradlewRun.exe
 ├── cyb-library.json
 ├── src/
 │   ├── main/
@@ -87,6 +88,10 @@ Depending on how your `CookYourBooksApp` is configured, you can typically run vi
 ```bash
 ./gradlew run
 ```
+Or, on Windows, you can also use:
+```bash
+./GradlewRun.exe
+```
 
 > If you run into JavaFX runtime issues, confirm your JDK/JavaFX setup matches the project’s Gradle configuration.
 
@@ -107,3 +112,4 @@ If you want to reset your environment, start by backing up and/or replacing `cyb
 ```bash
 ./gradlew test
 ```
+
